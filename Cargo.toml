@@ -1,0 +1,18 @@
+[package]
+name = "diesel-pg-explain"
+version = "1.0.0"
+authors = ["Evgenii Lepikhin <johnlepikhin@gmail.com>"]
+edition = "2021"
+license = "MIT"
+description = "Wrap Diesel PostgreSQL queries in EXPLAIN and parse the plan into structured Rust types."
+repository = "https://github.com/johnlepikhin/diesel-pg-explain"
+documentation = "https://docs.rs/diesel-pg-explain"
+readme = "README.md"
+
+categories = ["database", "development-tools::debugging", "visualization"]
+keywords = ["diesel", "postgresql", "explain", "query-plan", "orm"]
+
+[dependencies]
+diesel = { version = "2.2.10", features = ["postgres", "serde_json"] }
+serde = { version = "1.0.219", features = ["derive", "serde_derive"] }
+serde_json = "1.0.140"
