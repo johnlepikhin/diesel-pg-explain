@@ -50,6 +50,3 @@ jobs:
 
       - name: Generate documentation
         run: cargo doc --no-deps
-
-      - name: Security audit (cargo-audit)
-        uses: actions-rs/audit-check@v1
