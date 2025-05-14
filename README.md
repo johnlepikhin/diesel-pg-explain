@@ -1,3 +1,9 @@
+[![crates.io](https://img.shields.io/crates/v/diesel-pg-explain.svg)](https://crates.io/crates/diesel-pg-explain)
+[![docs.rs](https://docs.rs/diesel-pg-explain/badge.svg)](https://docs.rs/diesel-pg-explain)
+[![CI](https://github.com/johnlepikhin/diesel-pg-explain/actions/workflows/ci.yml/badge.svg)](https://github.com/johnlepikhin/diesel-pg-explain/actions)
+[![License: MIT](https://img.shields.io/crates/l/diesel-pg-explain.svg)](https://github.com/johnlepikhin/diesel-pg-explain/blob/main/LICENSE)
+
+
 # diesel-explain-plan
 
 A lightweight helper crate for wrapping [Diesel](https://diesel.rs/) PostgreSQL queries
