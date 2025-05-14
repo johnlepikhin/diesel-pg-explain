@@ -170,7 +170,7 @@ pub trait ExplainWrapped: Sized {
     ///
     /// Example:
     /// ```rust
-    /// use my_crate::ExplainWrapped;
+    /// use diesel_pg_explain::ExplainWrapped;
     /// let explained = query.wrap_explain();
     /// ```
     fn wrap_explain(&self) -> Explain<&Self>;
